@@ -1,0 +1,62 @@
+body {
+  background-color: #f4f4f4; /* Page background color */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+h3 {
+  color: #333;
+}
+
+textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7eb049;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+.notes-container {
+  display: flex; /* Flexbox for side-by-side display */
+  justify-content: flex-end; /* Center notes horizontally */
+  gap: 20px; /* Space between each note */
+  margin-top: 20px;
+}
+
+.note-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Each note takes 30% of the width */
+}
+
+.note-box p {
+  font-size: 16px;
+  color: #333;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
