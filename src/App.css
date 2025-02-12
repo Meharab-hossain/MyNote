@@ -1,14 +1,15 @@
 body {
-  background-color: #f4f4f4; /* Page background color */
+  background: linear-gradient(90deg, #020024 0%, #020214 35%, #0d3841 90%);
+  color: #fff;
   font-family: Arial, sans-serif;
 }
 
 h1 {
-  color: #333;
+  color: #e4dcdc;
 }
 
 h3 {
-  color: #333;
+  color: #e8dddd;
 }
 
 textarea {
@@ -52,7 +53,7 @@ button:hover {
 
 .note-box p {
   font-size: 16px;
-  color: #333;
+  color: #000000;
 }
 
 hr {
